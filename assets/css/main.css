@@ -1,0 +1,18 @@
+body {
+
+
+    background: url('/Devoirs/assets/img//bg2.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: black 0 0 1px;
+    background-repeat: no-repeat;
+    
+    
+}
+.mainContainer{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;    height: 100vh;
+}

@@ -49,23 +49,7 @@ function sendSQL($requeteSQL, $tabAssoColonneValeur)
     //       $hostSQL      = "127.0.0.1";
     //       $portSQL      = 8889;
 
-    //Synology
-    $loginSQL = "root";
-    $passwordSQL = "Soleil13";
-    $databaseSQL = "devoirs";
-    $hostSQL = "127.0.0.1";
 
-    //Wamp
-    /*$loginSQL     = "root";
-    $passwordSQL  = "";
-    $databaseSQL  = "perso";
-    $hostSQL      = "127.0.0.1";
-     */
-
-    //OVH
-    // $hostSQL      = "xaviervimjpers0.mysql.db";
-    // $loginSQL     = "xaviervimjpers0";
-    // $passwordSQL  = "Soleil13";
     // $databaseSQL  = "xaviervimjpers0";
 
     $dsnSQL = "mysql:host=$hostSQL;port=$portSQL;charset=$charsetSQL;dbname=$databaseSQL";
